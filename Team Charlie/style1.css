@@ -97,9 +97,9 @@ ul{
     margin-left: 50px;
     font-size: 40px;
     letter-spacing: 8px;
-    /* font-family: 'Mate SC', serif; */
+    font-family: 'Mate SC', serif;
     /* font-family: 'Bangers', cursive; */
-    font-family: 'Roboto Condensed', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
     font-weight: bolder;
     color: saddlebrown !important;
     font-style: italic;
@@ -180,7 +180,7 @@ section:nth-of-type(1){
     line-height: 50%;
 }
 .title h1{
-    font-size: 100px;
+    font-size: 60px;
     margin-top: 30px;
     margin-left: 20px;
     text-align: center;
@@ -191,10 +191,12 @@ section:nth-of-type(1){
 .title > i{
     font-size: 150px;
     display: flex;
-    position: absolute;
-    right: 15%;
-    bottom: 10%;
-    top: 50%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 20%;
+    /* bottom: 5%; */
+    /* top: 50%; */
     color: crimson;
 }
 
@@ -524,7 +526,7 @@ p{
     /* background: linear-gradient(to bottom, #a8ff78, #78ffd6); */
     /* background: linear-gradient(to bottom right, #00c9ff, #92fe9d); */
     border-radius: 10%;
-    border: #1FA2FF 3px solid;
+    /* border: #1FA2FF 3px solid; */
     /* background: linear-gradient(to bottom left, #feac5e, #c779d0, #4bc0c8); */
      /* background: linear-gradient(to bottom left, #d3cce3, #e9e4f0); */
      background: linear-gradient(to top left, #757f9a, #d7dde8);
